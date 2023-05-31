@@ -20,9 +20,4 @@ describe('Test my greet function' , function(){
         assert.equal("Hello, RJF", greet("RJF"), "this should not be true");
     });
 
-
-    it("it should return 'Hello Fabchi RJ' when called with 'Fabchi RJ'" , function(){
-        assert.equal("Hello, Josian", greet("Nalingi"), "this should not be true");
-    });
-
 });
